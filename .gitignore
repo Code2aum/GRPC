@@ -1,1 +1,23 @@
 /venv
+.venv
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.vscode/
+*.egg-info/
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg
+
+# Generated protobuf files (optional - remove if you want them committed)
+protofiles/*_pb2.py
+protofiles/*_pb2_grpc.py
+
+# macOS
+.DS_Store
